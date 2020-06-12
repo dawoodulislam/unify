@@ -267,20 +267,36 @@ nav .nav-link
 }
 /*<!-- service end-->*/
 /*<!--        work start-->*/
-#work .breadcrumb
+#work ul
 {
     background: none;
     padding-bottom: 50px;
 }
-#work .breadcrumb-item a, #work .breadcrumb-item
+#work .list-inline-item a, #work .list-inline-item
 {
     font-family: Raleway-SemiBold;
     font-size: 12px;
-    color: #353535;
+    color: #353535 !important;
 }
-#work .active
+#work .list-inline-item:hover
 {
-    color: #8ec448
+    text-decoration: underline;
+}
+#work .list-inline-item:nth-child(1)::before {
+    display: inline-block;
+    padding-right: 0.5rem;
+    color: #6c757d;
+    content: "";
+}
+#work .list-inline-item::before {
+    display: inline-block;
+    padding-right: 0.5rem;
+    color: #6c757d;
+    content: "/";
+}
+#work .active a
+{
+    color: #8ec448 !important;
 }
 #work .col-lg-4
 {
