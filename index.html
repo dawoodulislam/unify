@@ -16,7 +16,7 @@
     </head>
     <body>
         <!--        nav start-->
-        <nav class="navbar navbar-expand-lg fixed-top wow bounceInUp animated" data-wow-duration="3s" data-wow-delay="2s">
+        <nav class="navbar navbar-expand-lg fixed-top wow fadeInUp" data-wow-duration="3s">
             <div class="container">
                 <a href="index.html" class="navbar-brand">
                     <img src="img/logo.png" alt="Logo">
@@ -48,7 +48,7 @@
         </nav>
         <!--        nav end-->
         <!--        slider start-->
-        <section id="home" class="wow fadeInLeft animated" data-wow-offset="10"  data-wow-iteration="10" data-wow-duration="15s" data-wow-delay="7s">
+        <section id="home" class="" >
             <div class="carousel slide" data-ride="carousel" id="mycarousel">
                 <ol class="carousel-indicators">
                     <li data-slide-to="0" data-target="#mycarousel"></li>
@@ -56,9 +56,9 @@
                     <li data-slide-to="2" data-target="#mycarousel"></li>
                 </ol>
                 <div class="carousel-inner">
-                    <div class="carousel-item carousel-img2" role="listbox">
+                    <div class="carousel-item carousel-img2 wow fadeInRight" data-wow-duration="5s" role="listbox">
                         <div class="container">
-                            <div class="carousel-caption text-center">
+                            <div class="carousel-caption text-center fadeInLeft wow" data-wow-duration="3s">
                                 <h3>only best choice</h3>
                                 <h1 class="mb-5">of your success</h1>
                                 <a href="#" class="btn btn-outline-info btnview mr-3">view more</a>
@@ -66,9 +66,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item carousel-img1 active" role="listbox">
+                    <div class="carousel-item carousel-img1 active wow fadeInRight" data-wow-duration="5s" role="listbox">
                         <div class="container">
-                            <div class="carousel-caption text-center">
+                            <div class="carousel-caption text-center fadeInLeft wow" data-wow-duration="3s">
                                 <h3>only best choice</h3>
                                 <h1 class="mb-5">of your success</h1>
                                 <a href="#" class="btn btn-outline-info btnview mr-3">view more</a>
@@ -76,9 +76,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item carousel-img3" role="listbox">
+                    <div class="carousel-item carousel-img3 wow fadeInRight" data-wow-duration="5s" role="listbox">
                         <div class="container">
-                            <div class="carousel-caption text-center">
+                            <div class="carousel-caption text-center fadeInLeft wow" data-wow-duration="3s">
                                 <h3>only best choice</h3>
                                 <h1 class="mb-5">of your success</h1>
                                 <a href="#" class="btn btn-outline-info btnview mr-3">view more</a>
@@ -101,7 +101,7 @@
                     </div>
                 </div>
                 <div class="row text-justify">
-                    <div class="col-lg-4 col-md-6 wow fadeInLeft animated" data-wow-duration="2s" data-wow-delay="5s">
+                    <div class="col-lg-4 col-md-6 wow fadeInLeft" data-wow-duration="2s">
                         <div class="card border-0 text-center mx-auto">
                             <div class="card-body">
                                 <i class="icofont-vector-path"></i>
@@ -110,7 +110,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp animated" data-wow-duration="2s" data-wow-delay="5s">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="2s">
                         <div class="card border-0 text-center mx-auto">
                             <div class="card-body">
                                 <i class="icofont-code"></i>
@@ -119,7 +119,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInRight animated" data-wow-duration="2s" data-wow-delay="5s">
+                    <div class="col-lg-4 col-md-6 wow fadeInRight" data-wow-duration="2s">
                         <div class="card border-0 text-center mx-auto">
                             <div class="card-body">
                                 <i class="icofont-ui-settings"></i>
@@ -128,7 +128,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInLeft animated" data-wow-duration="2s" data-wow-delay="5s">
+                    <div class="col-lg-4 col-md-6 wow fadeInLeft" data-wow-duration="2s">
                         <div class="card border-0 text-center mx-auto">
                             <div class="card-body">
                                 <i class="icofont-binoculars"></i>
@@ -137,7 +137,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInDown animated" data-wow-duration="5s" data-wow-delay="5s">
+                    <div class="col-lg-4 col-md-6 wow fadeInDown" data-wow-duration="5s">
                         <div class="card border-0 text-center mx-auto">
                             <div class="card-body">
                                 <i class="icofont-responsive"></i>
@@ -146,7 +146,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInRight animated" data-wow-duration="5s" data-wow-delay="1s">
+                    <div class="col-lg-4 col-md-6 wow fadeInRight" data-wow-duration="5s">
                         <div class="card border-0 text-center mx-auto">
                             <div class="card-body">
                                 <i class="icofont-chart-histogram"></i>
@@ -160,48 +160,53 @@
         </section>
         <!--        service end-->
         <!--        work start-->
-        <section id="work" class="pb-5" uk-lightbox>
+        <section id="work" class="pb-5">
             <div class="container">
                 <div class="row text-center">
-                    <div class="col-12">
+                    <div class="col-12 work-filter" data-aos="fade-up" data-aos-duration="500">
                         <h1>OUR WORKS</h1>
                         <hr>
                         <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</h6>
-                        <ol class="breadcrumb justify-content-center">
-                            <li class="breadcrumb-item active">ALL</li>
-                            <li class="breadcrumb-item"><a href="img/printing/">PRINTING</a></li>
-                            <li class="breadcrumb-item"><a href="">ILLUSTRATION</a></li>
-                            <li class="breadcrumb-item"><a href="">PHOTOGRAPHY</a></li>
-                            <li class="breadcrumb-item"><a href="">PRESENTATION</a></li>
-                        </ol>
+                        <ul class="list-inline justify-content-center">
+                            <li class="list-inline-item active" data-filter="*"><a>ALL </a></li>
+                            <li class="list-inline-item" data-filter=".print"><a>PRINTING </a></li>
+                            <li class="list-inline-item" data-filter=".illus"><a>ILLUSTRATION </a></li>
+                            <li class="list-inline-item" data-filter=".photo"><a>PHOTOGRAPHY </a></li>
+                            <li class="list-inline-item" data-filter=".present"><a>PRESENTATION </a></li>
+                        </ul>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-4 mb-30 col-md-6">
-                        <img src="img/work_img_1.jpg" class="img-fluid" alt="Work Image">
-                        <div class="overlay">
-                            <div class="circle_icon">
-                                <a href="img/work_img_1.jpg" class="icon">
-                                    <i class="fa fa-link"></i>
-                                </a>
+                <div class="row work-filter-list" data-aos="fade-up" data-aos-duration="500">
+                    <div class="col-lg-4 mb-30 col-md-6 illus photo">
+                        <div class="work-filter-item">
+                            <img src="img/work_img_1.jpg" class="img-fluid" alt="Work Image">
+                            <div class="overlay">
+                                <div class="circle_icon">
+                                    <a href="img/work_img_1.jpg" class="icon">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+                                <h5>design collective</h5>
+                                <p>Branding/Presentation</p>
                             </div>
-                            <h5>design collective</h5>
-                            <p>Branding/Presentation</p>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 mb-30 col-md-6 print illus present">
+                        <div class="work-filter-item">
+                            <img src="img/work_img_2.jpg" class="img-fluid" alt="Work Image">
+                            <div class="overlay">
+                                <div class="circle_icon">
+                                    <a href="img/work_img_2.jpg" class="icon">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+                                <h5>design collective</h5>
+                                <p>Branding/Presentation</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 mb-30 col-md-6">
-                        <img src="img/work_img_2.jpg" class="img-fluid" alt="Work Image">
-                        <div class="overlay">
-                            <div class="circle_icon">
-                                <a href="img/work_img_2.jpg" class="icon">
-                                    <i class="fa fa-link"></i>
-                                </a>
-                            </div>
-                            <h5>design collective</h5>
-                            <p>Branding/Presentation</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 mb-30 col-md-6">
+                    <div class="col-lg-4 mb-30 col-md-6 photo present">
                         <img src="img/work_img_3.jpg" class="img-fluid" alt="Work Image">
                         <div class="overlay">
                             <div class="circle_icon">
@@ -225,7 +230,7 @@
                             <p>Branding/Presentation</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 mb-30">
+                    <div class="col-lg-4 col-md-6 mb-30 print photo">
                         <img src="img/work_img_5.jpg" class="img-fluid" alt="Work Image">
                         <div class="overlay">
                             <div class="circle_icon">
@@ -237,7 +242,7 @@
                             <p>Branding/Presentation</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 mb-30">
+                    <div class="col-lg-4 col-md-6 mb-30 print">
                         <img src="img/work_img_6.jpg" class="img-fluid" alt="Work Image">
                         <div class="overlay">
                             <div class="circle_icon">
@@ -264,11 +269,11 @@
         <section id="about" class="py-5">
             <div class="container">
                 <div class="row text-center">
-                    <div class="col-lg-6 d-none d-md-block">
+                    <div class="col-lg-6 d-none d-md-block wow fadeInLeft" data-wow-duration="3s">
                         <img src="img/about_bg.png" class="img-fluid about_img1 mx-auto" alt="">
                         <img src="img/about_img.png" class="img-fluid about_img2 mx-auto" alt="About Image">
                     </div>
-                    <div class="col-lg-6 py-md-5 py-lg-0">
+                    <div class="col-lg-6 py-md-5 py-lg-0 wow fadeInRight" data-wow-duration="3s">
                         <h1>ABOUT UNIFY</h1>
                         <hr>
                         <h6>Know More About US</h6>
@@ -292,35 +297,35 @@
                             <h5 class="d-inline-block float-right">55%</h5>
                         </div>
                         <div class="progress">
-                            <div class="progress-bar bg-progress wow slideInLeft animated" style="width: 55%;" data-wow-duration="5s" data-wow-delay="3s"></div>
+                            <div class="progress-bar bg-progress wow slideInLeft" style="width: 55%;" data-wow-duration="2s"></div>
                         </div>
                         <div>
                             <h5 class="d-inline-block">web design</h5>
                             <h5 class="d-inline-block float-right">70%</h5>
                         </div>
                         <div class="progress">
-                            <div class="progress-bar bg-progress wow slideInLeft animated" data-wow-duration="5s" data-wow-delay="3s" style="width: 70%;"></div>
+                            <div class="progress-bar bg-progress wow slideInLeft" data-wow-duration="2s" style="width: 70%;"></div>
                         </div>
                         <div>
                             <h5 class="d-inline-block">photography</h5>
                             <h5 class="d-inline-block float-right">95%</h5>
                         </div>
                         <div class="progress">
-                            <div class="progress-bar bg-progress wow slideInLeft animated" style="width: 95%;" data-wow-duration="5s" data-wow-delay="3s"></div>
+                            <div class="progress-bar bg-progress wow slideInLeft" style="width: 95%;" data-wow-duration="2s"></div>
                         </div>
                         <div>
                             <h5 class="d-inline-block">branding</h5>
                             <h5 class="d-inline-block float-right">70%</h5>
                         </div>
                         <div class="progress">
-                            <div class="progress-bar bg-progress wow slideInLeft animated" style="width: 70%;" data-wow-duration="5s" data-wow-delay="3s"></div>
+                            <div class="progress-bar bg-progress wow slideInLeft" style="width: 70%;" data-wow-duration="2s"></div>
                         </div>
                         <div>
                             <h5 class="d-inline-block">social media</h5>
                             <h5 class="d-inline-block float-right">55%</h5>
                         </div>
                         <div class="progress">
-                            <div class="progress-bar bg-progress wow slideInLeft animated" style="width: 55%;" data-wow-duration="5s" data-wow-delay="3s"></div>
+                            <div class="progress-bar bg-progress wow slideInLeft" style="width: 55%;" data-wow-duration="2s"></div>
                         </div>
                     </div>
                     <div class="col-md-6 text-center order-1 order-md-0 mb-5 mb-md-0">
@@ -341,7 +346,7 @@
                     </div>
                 </div>
                 <div class="row text-center">
-                    <div class="col-md-4 mb-4 mb-md-0 wow bounceInDown animated">
+                    <div class="col-md-4 mb-4 mb-md-0 wow bounceInLeft" data-wow-duration="4s">
                         <img src="img/team_mem1.png" class="img-fluid" alt="Member">
                         <div class="overlay-team">
                             <h3>Dawoodul Islam</h3>
@@ -370,7 +375,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-4 mb-md-0">
+                    <div class="col-md-4 mb-4 mb-md-0 wow bounceInDown" data-wow-duration="3s">
                         <img src="img/team_mem2.png" class="img-fluid " alt="Member">
                         <div class="overlay-team">
                             <h3>anamika raj anu</h3>
@@ -399,7 +404,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-4 mb-md-0">
+                    <div class="col-md-4 mb-4 mb-md-0 wow bounceInLeft" data-wow-duration="2s">
                         <img src="img/team_mem3.png" class="img-fluid" alt="Member">
                         <div class="overlay-team">
                             <h3>rafiq</h3>
@@ -1057,41 +1062,46 @@
         </section>
         <!--        contact end-->
         <hr>
-<!--        footer start-->
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 order-2 order-md-0 text-md-left text-center">
-                <h3>Copyright &copy; BootExpert All Rights Reserved</h3>
-            </div>
-            <div class="col-md-6 order-1 order-md-0;">
-                <div class="d-flex flex-row justify-content-md-end justify-content-center">
-                    <div class="fb-circle">
-                        <i class="icofont-facebook"></i>
+        <!--        footer start-->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 order-2 order-md-0 text-md-left text-center">
+                        <h3>Copyright &copy; BootExpert All Rights Reserved</h3>
                     </div>
-                    <div class="tw-circle ml-lg-3 ml-2">
-                        <i class="icofont-twitter"></i>
-                    </div>
-                    <div class="g-circle ml-lg-3 ml-2">
-                        <i class="icofont-google-plus"></i>
-                    </div>
-                    <div class="be-circle ml-lg-3 ml-2">
-                        <i class="icofont-behance"></i>
+                    <div class="col-md-6 order-1 order-md-0;">
+                        <div class="d-flex flex-row justify-content-md-end justify-content-center">
+                            <div class="fb-circle">
+                                <i class="icofont-facebook"></i>
+                            </div>
+                            <div class="tw-circle ml-lg-3 ml-2">
+                                <i class="icofont-twitter"></i>
+                            </div>
+                            <div class="g-circle ml-lg-3 ml-2">
+                                <i class="icofont-google-plus"></i>
+                            </div>
+                            <div class="be-circle ml-lg-3 ml-2">
+                                <i class="icofont-behance"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</footer>
-<!--       footer end-->
+        </footer>
+        <!--       footer end-->
         <!--        script start-->
         <script src="js/jquery-3.4.1.slim.min.js"></script>
         <script src="js/popper.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <script src="js/wow.min.js"></script>
         <script src="js/uikit.min.js"></script>
         <script src="js/bootstrap-brogressbar-manager.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/scrollspy.js"></script>
+        <script src="js/isotope.pkgd.min.js"></script>
         <script>
+
+            new WOW().init();
+
             $('.nav-link').click(function(e){
                 let divCoords = $(e.target.hash).offset();
                 let height = $('nav').height();
@@ -1106,11 +1116,48 @@
             function search(string){
                 window.find(string).css("background","#FF0");
             }
-            $(window).scroll(function(){
-                new WOW().init();
+            //            $(window).scroll(function(){
+            //                new WOW().init();
+            //            }
+
+
+            // Repeat demo content
+            var $body = $('body');
+            var $box = $('.box');
+            for (var i = 0; i < 20; i++) {
+                $box.clone().appendTo($body);
             }
 
+            // Helper function for add element box list in WOW
+            WOW.prototype.addBox = function(element) {
+                this.boxes.push(element);
+            };
 
+            // Init WOW.js and get instance
+            var wow = new WOW();
+            wow.init();
+
+            // Attach scrollSpy to .wow elements for detect view exit events,
+            // then reset elements and add again for animation
+            $('.wow').on('scrollSpy:exit', function() {
+                $(this).css({
+                    'visibility': 'hidden',
+                    'animation-name': 'none'
+                }).removeClass('animated');
+                wow.addBox(this);
+            }).scrollSpy();
+
+
+            $(document).ready(function(){
+                $(".work-filter-list").isotope();
+
+                $(".work-filter li").on('click', function(){
+                    var selector = $(this).attr('data-filter');
+                    $(".work-filter-list").isotope({
+                        filter:selector
+                    });
+                });
+            });
         </script>
         <!--        script end-->
     </body>
